@@ -7,6 +7,6 @@
 |--|--|
 |César Castro Salzar|18100157|
 
-![](http://www.thatzblog.com/wp-content/uploads/2019/03/for-blog-3.gif =100x20)
-
+![gif](http://www.thatzblog.com/wp-content/uploads/2019/03/for-blog-3.gif)
+img[alt=gif] {width: 200px;}
 
