@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+}
+
+div#header{
+    background-color: aquamarine;
+    color: rgba(14, 7, 117, 0.89);
+}
+
+header{
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+
+div p {
+    background-color: lightseagreen;
+    color:rgba(14, 7, 117, 0.89);
+}
+
+img#Ccs{
+    width: 175x;
+    height: 250px;
+    float: left;
+}
+
+table {
+    width: 85%;
+    border: double 10px rgb(107, 4, 4);
+    background-color: tomato;
+ }
+
+ div#Contacto{
+     color:white;
+     text-align: center;
+ }
