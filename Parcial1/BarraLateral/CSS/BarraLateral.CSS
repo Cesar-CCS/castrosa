@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ div.menú{
+     position: fixed;
+     width: 75px;
+     background-color: blueviolet;
+     height: 100%;
+     overflow: auto;
+ }
+
+ a {
+     display: block;
+     padding: 5px;
+ }
+
+ div.contenido{
+     position: relative;
+     margin-left: 70px;
+     padding: 1px 16px;
+     height: 100%;
+ }
+
+ @media screen and (max-wdith: 768px) {
+     div.menú{
+         position: relative;
+         width: 100%;
+         height: auto;
+     }
+
+     .menú a{
+         float: left;
+    }
+
+     div.contenido{
+        margin-left: 0%;
+    }
+ }
+
+ @media only screen and (max-width: 425px) {
+     .menú a{
+         float: none;
+         text-align: center;
+     }
+ }
+ 
