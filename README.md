@@ -2,6 +2,8 @@
 
 **Alumno:** *César Castro Salazar*
 
+**Numero de control:** *18100157*
+
 **Docente:** *Gerardo Pineda Zapata*
 
 Este es un repositorio creado para subir los proyectos
