@@ -1,0 +1,29 @@
+html{
+    background-image: url(https://userscontent2.emaze.com/images/041acc5d-4b95-49d9-b73a-f91e36b7a19a/37e76d7d6dbb30114b083598ee53284b.jpeg);
+    min-height:100%;
+    background-size:cover;
+}
+
+
+h1{
+    text-align: center;
+}
+
+p{
+    font-size:x-large;
+    font-weight: bolder;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+table{
+    margin: 0 auto;
+}
+
+table tr.Columna{
+    background-color: rgba(50, 175, 38, 0.788);
+}
+
+table tr{
+    background-color: rgb(96, 201, 87);
+}
