@@ -20,10 +20,12 @@ Elemento|Descripcion
 ```<option>```|Representa una opción en un elemento ```<select>``` o ```<datalist>```
 ```<select>```|Representa un elemento de control que permite la selección entre un conjunto de opciones ```<option>```
 ```<optgroup>```|Representa un conjunto de opciones, agrupadas lógicamente.
-
+|
 ```<datalist>```|Representa un elemento de control que permite la selección entre un conjunto de opciones ```<option>```
 ```<textarea>```|Representa un elemento de control de edición de texto multilínea.
 ```<output>```|Representa el resultado de un cálculo.
+
+
 
 ![Formularios](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBH6LEz0t31r2_lQ48NTPA1cyypIQOBvavGQ&usqp=CAU)
 
