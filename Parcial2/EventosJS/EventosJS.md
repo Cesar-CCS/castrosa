@@ -28,7 +28,7 @@ burbuja ya que este comportamiento simula burbujas ascendiendo a la superficie
 
 veamos un ejemplo.
 
-[EventosJS](IMG/EventosJS.jpg)
+![EventosJS](IMG/EventosJS.jpg)
 
 Si un usuario hace clic sobre nuestro elemento el elemento  li llegará a dicho 
 
