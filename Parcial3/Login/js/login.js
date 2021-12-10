@@ -12,10 +12,12 @@ $('document').ready(function () {
             if (Usser == 'Cesar' && Passw=='1590') 
             {
                 $.get("php/login.php", {Usuario: Usser,Contra: Passw});
+                alert("BIENVENIDO "+Usser);
                 $(location).attr('href',"Formulario/Index.html");
 
             }
             else {
                 console.log('login incorrecto');
+                alert("USUARIO O CONTRASEÑA EQUIVOCADO");
             }
     }});
