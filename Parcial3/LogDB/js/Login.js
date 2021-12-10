@@ -14,15 +14,14 @@ $('document').ready(function () {
     
         $.post('php/Login.php', {Login:vLog,Password:vPas}, function(ret) {
     
-            //console.log(ret);
             if (ret['resultado'] != 0) {
                 console.log('login incorrecto');
+                alert("LOGIN INCORRECTO");
+                $(location).attr('href',"loggin.html");
 
             }
             else {
-                //console.log('login correcto');
-    
-                //console.log(ret);
+                alert("HOLA"+vLog);
                 $(location).attr('href',"Formulario.html");
                 
             }
