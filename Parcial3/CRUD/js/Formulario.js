@@ -102,6 +102,7 @@ $('document').ready(function () {
 
                 alert('CONSULTA REALIZADA');
                 $('input').prop("disabled", false);
+                $('#id_Curso').prop("disabled", true);
                 $('#btnNuevo').prop("disabled", false);
                 $('#btnRegistrar').prop("disabled", true);    
                 $('#btnEliminar').prop("disabled", false);

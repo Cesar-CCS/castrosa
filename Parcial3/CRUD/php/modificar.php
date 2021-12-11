@@ -23,10 +23,17 @@ try {
     $row['detalle']    = $e->getMessage();
 }
 
-echo "Descripcion: $vDescripcion";
 try {
-    $query = "UPDATE INTO curso
-              SET Nombre_Docente = '$vNombre_Doc', Apellido = '$vApellido', Nombre_Curso  = '$vNombre_Curs', Costo = '$vCosto', Correo ='$vCorreo', Categoria = '$vCategoria', Requisitos = '$vRequisitos', Descripcion = '$vDescripcion' WHERE id_Curso = '$IDCurso'";
+    $query = "UPDATE curso
+              SET Nombre_Docente = '".$vNombre_Doc."', 
+              Apellido = '".$vApellido."', 
+              Nombre_Curso  = '".$vNombre_Curs."', 
+              Costo = ".$vCosto.", 
+              Correo ='".$vCorreo."', 
+              Categoria = '".$vCategoria."', 
+              Requisitos = '".$vRequisitos."', 
+              Descripcion = '".$vDescripcion."' 
+              WHERE id_Curso = ".$IDCurso."";
 
     $stmt = $dbh->prepare($query);
 

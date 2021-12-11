@@ -24,7 +24,7 @@ $stmt->bindParam(1,$IDCurso);
 
         $row['resultado']  = '0';
         $row['informacion']= 'Consulta Exitosa';
-        $row['mensaje']    = 'Registro Encontrado';
+        $row['mensaje']    = 'Consult Encontrado';
         $row['detalle']    = $result;
    } else {
         $row['resultado']  = '2';
